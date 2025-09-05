@@ -1,4 +1,4 @@
-# FreakRandomizer v1.0 - Improved randomness without using Python's random module
+# FreakRandomizer v1.2 - Improved randomness without using Python's random module
 # Github: https://github.com/Kutay1062/FreakRandomizer
 # Author: Kutay
 # Date: 2024-06-20
@@ -78,3 +78,4 @@ _default_freak_randomizer = FreakRandomizer()
 
 def FreakRandomizeİnt(number1, number2, SHA=None):
     return _default_freak_randomizer.FreakRandomizeİnt(number1, number2, SHA=SHA)
+
