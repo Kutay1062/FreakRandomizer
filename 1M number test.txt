@@ -1,0 +1,25 @@
+1M number test
+Active SHA algorithms:
+['blake2b', 'blake2s', 'md4', 'md5', 'md5-sha1', 'mdc2', 'ripemd160', 'sha1', 'sha224', 'sha256', 'sha384', 'sha3_224', 'sha3_256', 'sha3_384', 'sha3_512', 'sha512', 'sha512_224', 'sha512_256', 'shake_128', 'shake_256', 'sm3', 'whirlpool']
+blake2b      => 1.77 seconds, sample distribution: [(16, 10190), (20, 10192), (35, 10081), (22, 9903), (17, 9887)]
+blake2s      => 2.37 seconds, sample distribution: [(81, 9906), (79, 10074), (61, 9958), (44, 10224), (96, 9866)]
+md4          => ERROR (module 'hashlib' has no attribute 'md4')
+md5          => 7.72 seconds, sample distribution: [(29, 9985), (99, 10135), (66, 10000), (40, 10071), (32, 10073)]
+md5-sha1     => ERROR (module 'hashlib' has no attribute 'md5-sha1')
+mdc2         => ERROR (module 'hashlib' has no attribute 'mdc2')
+ripemd160    => ERROR (module 'hashlib' has no attribute 'ripemd160')
+sha1         => 7.57 seconds, sample distribution: [(85, 9991), (56, 9871), (59, 9859), (79, 9967), (84, 9990)]
+sha224       => 7.68 seconds, sample distribution: [(62, 9965), (56, 10052), (11, 10022), (61, 10046), (29, 10180)]
+sha256       => 7.88 seconds, sample distribution: [(95, 9962), (11, 10033), (65, 10094), (25, 10041), (77, 9944)]
+sha384       => 9.11 seconds, sample distribution: [(32, 9890), (85, 10203), (15, 9905), (47, 9939), (90, 9914)]
+sha3_224     => 8.50 seconds, sample distribution: [(78, 10167), (35, 10152), (50, 10037), (80, 9964), (83, 10064)]
+sha3_256     => 8.55 seconds, sample distribution: [(27, 10201), (43, 10167), (98, 9985), (90, 9866), (81, 10040)]
+sha3_384     => 8.93 seconds, sample distribution: [(88, 9969), (23, 10174), (15, 9914), (29, 9896), (54, 10040)]
+sha3_512     => 8.96 seconds, sample distribution: [(53, 9948), (85, 9899), (76, 10036), (7, 10042), (29, 10129)]
+sha512       => 9.47 seconds, sample distribution: [(90, 9993), (68, 10199), (53, 9852), (83, 10139), (9, 9969)]
+sha512_224   => ERROR (module 'hashlib' has no attribute 'sha512_224')
+sha512_256   => ERROR (module 'hashlib' has no attribute 'sha512_256')
+shake_128    => ERROR (hexdigest() missing required argument 'length' (pos 1))
+shake_256    => ERROR (hexdigest() missing required argument 'length' (pos 1))
+sm3          => ERROR (module 'hashlib' has no attribute 'sm3')
+whirlpool    => ERROR (module 'hashlib' has no attribute 'whirlpool')
